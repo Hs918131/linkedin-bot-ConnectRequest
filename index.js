@@ -16,7 +16,7 @@ async function startBot() {
 	await page.signin();
         await sleep(20) 
         
-	site = "https://www.linkedin.com/mynetwork/invitation-manager";
+	site = "https://www.linkedin.com/search/results/people";
         await sleep(5)
 	await page.visit(site);
 
@@ -28,7 +28,7 @@ async function startBot() {
 			await sleep(2)
 		}
 		try {
-            		await page.pressAcceptButton();
+            		await page.pressConnectButton();
             		await new Promise((resolve) => setTimeout(resolve, 1000))
 	    		page.scrollToBottom();	
 	       		await sleep(3)
