@@ -1,5 +1,5 @@
 # LINKEDIN-BOT 
-A linkedin-bot which automatically accepts all the connection invitations. 
+A linkedin-bot which automate the connection request to connections on LinkedIn
 
 ## Running it locally on your machine 
 
